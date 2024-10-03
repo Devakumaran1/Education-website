@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deva University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="./assets/logo edits.png" width="130px" height="auto" class="logo"
+                    alt="logo"></a>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <h1>Our Blog</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./eduford_img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2024</h2>
+                <p>Welcome to Deva University, where innovation meets tradition in a transformative learning experience.
+                    Established with the mission to nurture the leaders of tomorrow, Deva University is committed to
+                    academic excellence, cutting-edge research, and community engagement.</p><br>
+                <p>At Deva University, we believe education goes beyond the classroom. Our diverse programs, spanning
+                    various fields of study, empower students to develop critical thinking, problem-solving skills, and
+                    a global perspective. With a faculty of experts and state-of-the-art facilities, we are dedicated to
+                    providing a holistic educational journey that inspires creativity and cultivates lifelong learners.
+                </p><br>
+                <p>Whether you're a prospective student, researcher, or industry partner, Deva University is your
+                    gateway to a world of opportunities. Join us in shaping the future through knowledge, collaboration,
+                    and innovation.</p><br>
+                <p>To be a global leader in education, fostering innovation and creating impactful change in society. To
+                    provide a transformative education that prepares students for meaningful careers, while contributing
+                    to the advancement of knowledge and societal development.</p>
+
+                <div class="comment-box">
+                    <h2 class="comment-head">Leave a Comment</h2>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your Email">
+                        <textarea name="texarea" rows="8" id="" placeholder="Enter your message"></textarea>
+                        <button class="hero-btn about-btn comment-btn">Leave Comment</button>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span class="blog-span">Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span class="blog-span">Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span class="blog-span">Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span class="blog-span">Computer Science</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span class="blog-span">AutoCAD</span>
+                    <span>38</span>
+                </div>
+                <div>
+                    <span class="blog-span">Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span class="blog-span">Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h3>About <span>Us</span></h3>
+        <p>Welcome to Deva University, a hub of innovation, academic excellence, and holistic development. At Deva, we
+            believe in shaping the
+            future by nurturing talent and fostering creativity in a world-class learning environment. Whether you're a
+            prospective student, researcher, or industry partner,
+            Deva University is your gateway to a world of opportunities.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+        <p class="final-para">Made with <i class="fa fa-heart"></i> by Devakumaran G </p>
+    </section>
+
+    <script>
+        let navLinks = document.getElementById('navLinks')
+
+        function showMenu() {
+            navLinks.style.right = '0';
+            // navLinks.style.display='block';
+
+        }
+        function hideMenu() {
+            navLinks.style.right = '-250px';
+            // navLinks.style.display='none';
+        }
+
+    </script>
+</body>
+
+</html>
